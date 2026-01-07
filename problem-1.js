@@ -11,6 +11,8 @@
 const greeting = "hello";
 
 const splits = greeting.split("");
+// console.log(splits);
+// const reversing = splits.reverse();
 const reversing = splits.reverse().join("");
-// console.log(spliting);
+
 console.log(reversing);

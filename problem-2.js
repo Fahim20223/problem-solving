@@ -7,10 +7,10 @@
 // Output: 3
 
 //solve :
-// const vowels = ["a","e","i","o","u"];
+// const vowels = ["a", "e", "i", "o", "u"];
 // const string = "programming";
-// if(string.join()){
-//     console.log(string)
+// if (string.join()) {
+//   console.log(string);
 // }
 
 // Problem 3: Check for Palindrome
@@ -86,7 +86,7 @@
 // const result = input.toUpperCase();
 // console.log(result);
 
-// Problem 9: Find the Factorial of a Number
+// Problem 2: Find the Factorial of a Number
 // Write a function that calculates the factorial of a number using a loop.
 
 // Example:
@@ -94,13 +94,14 @@
 // Input: 5
 // Output: 120
 
-// const input = 5;
-// for (let i = 1; i < !5; i++) {
-//   const element = input * i;
-//   console.log(element);
-// }
+const input = 5;
+let result = 1;
+for (let i = 1; i <= input; i++) {
+  result = result * i;
+}
+console.log(result);
 
-// Problem 10: PingPong Challenge
+// Problem 3: PingPong Challenge
 // Write a function that prints numbers from 1 to 20.
 
 // Example:
