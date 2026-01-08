@@ -7,3 +7,13 @@
 // Output: true
 // Input: "hello"
 // Output: false
+
+//solve
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+// Test
+console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("hello")); // false
